@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Boton.module.css";
 
 const Boton = ({ texto, esBotonDeClic, manejarClic }) => {

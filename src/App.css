@@ -2,6 +2,8 @@
 	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	font-family: "Montserrat", sans-serif;
 }
@@ -11,6 +13,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 50px 0;
 	color: #ffffff;
 	font-size: 2.8rem;
 	font-family: "Montserrat", sans-serif;
