@@ -6,7 +6,7 @@ import Boton from "./components/Boton";
 const App = () => {
 	const [numClics, setNumClics] = useState(0);
 
-	const manejarClic = () => {
+	const incrementar = () => {
 		setNumClics(numClics + 1);
 	};
 
@@ -16,7 +16,7 @@ const App = () => {
 
 	return (
 		<div className='App'>
-			<div className='logo-contenedor'>
+			<div className='title'>
 				<h1>Contador</h1>
 			</div>
 			<div className='contenedor-principal'>
@@ -24,7 +24,7 @@ const App = () => {
 				<Boton
 					texto={"Clic"}
 					esBotonDeClic={true}
-					manejarClic={manejarClic}
+					manejarClic={incrementar}
 				/>
 				<Boton
 					texto={"Reiniciar"}
